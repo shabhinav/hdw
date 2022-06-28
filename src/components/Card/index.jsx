@@ -3,7 +3,7 @@ import { Line } from "rc-progress";
 
 const Card = ({ data }) => {
   return (
-    <div className='rounded-lg p-4 text-backgroundGrey mt-4'>
+    <div className='rounded-lg p-4 text-grey mt-4'>
       <div className='flex justify-between'>
         <p className='text-left'>{data?.seriesName}</p>
       </div>
